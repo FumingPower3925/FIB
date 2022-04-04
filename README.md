@@ -7,3 +7,5 @@ Ha tenir en compte:
 1. Per a disfrutar d'una experiencia molt millor llegir directament els .md, als pdf moltes vegades hi han desordres, imatges desproporcionades i altres errors.
 
 2. Hi han esquemes/resums en català, castellà i en anglés depenen del idioma en el que me les han impartit a mi.
+
+3. Hi han molts alguns errors de visualització (les imatges no es veuen) ens els .md a github, recomano veure els documents amb l'us de Marktext.
