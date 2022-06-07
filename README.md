@@ -1,6 +1,6 @@
 # README
 
-**Només comparteixo els resums/esquemes que m'agrada fer-me per estudiar, no em faig responsable de cap error ni "mala explicació" que hi pugui haber.**
+**Només comparteixo els resums/esquemes que m'agrada fer-me per estudiar, no sempre estan complerts i no em faig responsable de cap error ni "mala explicació" que hi pugui haber.**
 
 Ha tenir en compte:
 
