@@ -19,6 +19,7 @@
 2. **Clipping + Perspective división (Fijo)**:
    
    Se **eliminan los triángulos** que se encuentren enteros fuera del rango de visión.
+![firefox_wqlABH0mxl](https://user-images.githubusercontent.com/59342135/198405077-8615fe89-ae18-4ebe-a501-f8f1c965f789.png)
 
 3. **Device transform (Fijo)**:
    
