@@ -165,7 +165,7 @@ Els directoris que han de ser muntats obligatoriament es perque es requereixen d
 | `$ systemctl [mask\|umask] <s>`          | [masks\|unmasks] els serveis           |
 | `$ systemctl daemon-reload`              | **Auto-recarga systemctl sense parar** |
 
-> <s>: Es el nom del servei en questió
+> \<s>: Es el nom del servei en questió
 
 > Exemples: `$ systemctl reboot`, `$ systemctl poweroff`
 
