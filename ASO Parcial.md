@@ -306,7 +306,7 @@ Només si estem segurs que la seva compta ja no sera necessaria:
 > 
 > perm: Pot ser introduit en forma (rwx) o en forma octal (0755)
 > 
-> Els permisos de la umask son els permisos per defecte de arxiu o directori
+> Els permisos de la umask son els permisos negats per defecte de l'arxiu o directori
 
 # 4. Gestió d'aplicacions
 
