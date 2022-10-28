@@ -210,9 +210,9 @@ Opcions a escollir per a fer zoom, de millor a pitjor.
    
    - En ortogonal: Modificar el window mantenint el ra
 
-2. Modificar la distància de l'OBS al VRP (modificant zNear i zFar adequadament)
+2. En perspectiva: modificar la distància de l'OBS al VRP (modificant zNear i zFar adequadament)
 
-3. Modificar el OBS i VRP i aproparlos al objecte 
+3. En perspectiva: modificar el OBS i VRP i aproparlos al objecte 
 
 ## 3.6. Camara en tercera persona
 
