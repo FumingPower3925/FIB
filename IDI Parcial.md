@@ -146,6 +146,8 @@ Pseudocodi: VM = lookat(OBS,VRP,up)
 
 ### 3.1.2. Amb angles d'Euler
 
+![firefox_wqlABH0mxl](https://user-images.githubusercontent.com/59342135/198575688-311ad625-374c-406d-93bd-d4fed9eedddd.png)
+
 ## 3.2. Camara Perspectiva
 
 OpenGL: mat4 PM= glm::perspective((float), (float) raw, (float) zNear, (float) zFar)
@@ -228,6 +230,8 @@ zFar = d+RadiEscena
 
 # 4. Colors
 
+![rgb](https://user-images.githubusercontent.com/59342135/198575718-a2cb4986-8348-4d37-a643-63c048f1b5f9.png)
+
 **RGB a CMY**
 
 (1 - R, 1 - G, 1 - B)
@@ -238,9 +242,11 @@ zFar = d+RadiEscena
 
 **HSV a RGB**
 
-
+![HSV A RGB](https://user-images.githubusercontent.com/59342135/198575746-a7890e1a-9e56-4d2a-b531-40cb5f3d6f00.png)
 
 **RGB a HSV**
+
+![RGB A HSV](https://user-images.githubusercontent.com/59342135/198575767-b80723f6-ebd7-416f-aa97-689896727ae0.png)
 
 # 5. Diseny d'interfícies
 
