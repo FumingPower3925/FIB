@@ -42,7 +42,7 @@
 | --------------------------- | ------------------------------------------ | ------------------------------------------ | -------------------------------------------------- |
 | Created by parallel runtime | Logical computing agents offered by the OS | Logical computing agents offered by the OS | Hardware units that execute the logical components |
 
-// Figura 1
+![Figura 1](https://user-images.githubusercontent.com/59342135/213032921-c964f4f0-b789-46bf-acd9-d4ca36515f95.png)
 
 ## Unit 2
 
@@ -56,7 +56,7 @@
 
 > Is the path of the TDG taht from begining to and end has a highest accumulated work
 
-// Figura 4
+![Figura 4](https://user-images.githubusercontent.com/59342135/213033040-69c33122-5433-4245-b003-e7c730a36372.png)
 
 ### 2.1 Computing the Parallelism
 
@@ -64,13 +64,13 @@
 
 > Sum of all the "work" of each node in the task dependency graph (TDG)
 
-// Figura 2
+![Figura 2](https://user-images.githubusercontent.com/59342135/213033002-41737cab-e15d-42ff-9ebd-e1eeb0183f95.png)
 
 - $T_ \infty$:
 
 > Sum of all the "work" of each node in the critical path of the TDG
 
-// Figura 3
+![Figura 3](https://user-images.githubusercontent.com/59342135/213033025-783bf021-c638-426a-b900-0d4e115b2428.png)
 
 - **$Parallelism\ ={T_1\over T_\infty} $**:
 
@@ -152,7 +152,7 @@ In order to get coherence there are two ways in the reader side and two ways in 
 > 
 > The caches access the main memory through a bus (as in the example)
 
-// Figura 5
+![Figura 5](https://user-images.githubusercontent.com/59342135/213033065-66133e03-27e2-468e-9b89-bc5ee4999951.png)
 
 - **Write-invalidate snooping coherence**
 
@@ -170,7 +170,7 @@ In order to get coherence there are two ways in the reader side and two ways in 
 > 
 > The caches access the main memory through a bus (as in the example)
 
-// Figura 6
+![Figura 6](https://user-images.githubusercontent.com/59342135/213033089-6d17e7dd-d8c9-4bf7-b671-38ebf662d3cf.png)
 
 ### 3.2 Particular memeory implementations (IMPORTANT!)
 
@@ -180,7 +180,7 @@ In order to get coherence there are two ways in the reader side and two ways in 
 > 
 > **Model for data sharing**: Load/store instructions from processors
 
-// Figura 7
+![Figura 7](https://user-images.githubusercontent.com/59342135/213033103-3e1254ef-d9cc-4891-8c29-64e98510a60c.png)
 
 > - **Simple write-invalidate snooping protocol (MSI)**:
 > 
@@ -208,7 +208,7 @@ In order to get coherence there are two ways in the reader side and two ways in 
 > > 
 > > - Flush: Puts line on bus, either because requested or voluntarily when dirty line in cache is replaced
 > > 
-> > // Figura 10
+> > ![Figura 10](https://user-images.githubusercontent.com/59342135/213033215-27620fa0-22a0-4958-9213-285df4c2556d.png)
 > > 
 > > IF line in S or I in other caches then main memory provides it
 > > 
@@ -240,7 +240,7 @@ In order to get coherence there are two ways in the reader side and two ways in 
 > 
 > Directory slice is the "centralised" structure that "orders" the accesses to the lines in the associated node
 > 
-> // Figura 11
+> ![Figura 11](https://user-images.githubusercontent.com/59342135/213033252-f8957411-44b7-4f7c-8f6a-06a99e58f396.png)
 > 
 > **Node types**:
 > 
@@ -276,19 +276,19 @@ In order to get coherence there are two ways in the reader side and two ways in 
 >   
 >   - **Invalidate**: asks remote (reader) node to invalidate its copy, remote sends confirmation to home with **Ack**
 > 
-> // Figura 12
+> ![Figura 12](https://user-images.githubusercontent.com/59342135/213033267-60f78617-59da-4b6d-9c30-5df9c9e8f6a4.png)
 > 
 > **Snooping and directory-based protocol**:
 > 
 > If nodes have snoopy-based coherence, then the hub becomes an additional agent that interacts with the home direcorty nodes for the cache lines copied in the node
 > 
-> // Figura 13
+> ![Figura 13](https://user-images.githubusercontent.com/59342135/213033292-e7688e6a-c403-4936-a451-c1f983d871ea.png)
 > 
 > **Number of bits necessary to maneint the coherence AMONG numa node**:
 > 
 > $(\#nodes)·[({size\ MP \over size\ line\ MP})·(2+2+presence\ {bits \over line})]$
 
-// Figura 8
+![Figura 8](https://user-images.githubusercontent.com/59342135/213033166-883714f7-22ef-4fd6-a2a6-cf84cb2b30bf.png)
 
 - **Distributed-memory architecture** with **msas**
 
@@ -298,7 +298,7 @@ In order to get coherence there are two ways in the reader side and two ways in 
 > 
 > **Other names**: Message-passing multiprocessor, cluster architecture, multicomputer
 
-// Figura 9
+![Figura 9](https://user-images.githubusercontent.com/59342135/213033191-c6bcf1b5-167f-484e-a90c-675f13c7f458.png)
 
 ## Unit 4
 
@@ -318,7 +318,7 @@ In order to get coherence there are two ways in the reader side and two ways in 
   
   > **Leaf strategy**: a task corresponds with each final leaf of the tree
   > 
-  > // Figura 14
+  > ![Figura 14](https://user-images.githubusercontent.com/59342135/213033317-1b941f7e-5559-4be4-b889-f4470414c046.png)
   > 
   > ```c
   > ...
@@ -335,7 +335,7 @@ In order to get coherence there are two ways in the reader side and two ways in 
   > 
   > **Tree strategy**: a task corresponds with each sub-tree
   > 
-  > // Figura 15
+  > ![Figura 15](https://user-images.githubusercontent.com/59342135/213033333-0d2deb7e-cbc4-49a4-899b-2712f23c47a1.png)
   > 
   > ```c
   > ...
@@ -461,30 +461,30 @@ Locks an specific register from it's use
 
 - **(Input) Block data decomposition**
 
-> // Figura 22
+> ![Figura 22](https://user-images.githubusercontent.com/59342135/213033502-4a094f7e-488b-45ca-b7c3-dcaf37b392ad.png)
 
 - **(Input) Cyclic data decomposition, by ROWS**
 
-> // Figura 16
+> ![Figura 16](https://user-images.githubusercontent.com/59342135/213033375-6fd335e8-ac56-41d2-9623-e3068715fc37.png)
 
 - **(Input) Block-Cyclic data decomposition, by COLUMNS**
 
-> // Figura 17
+> ![Figura 17](https://user-images.githubusercontent.com/59342135/213033421-761300c4-cebc-4bc8-a71a-9ea9f48efdd3.png)
 
 - **2D Block / Block data decomposition**
 
-> // Figura 18
+> ![Figura 18](https://user-images.githubusercontent.com/59342135/213033445-a405d50d-ffb6-4b98-bc70-158db74b9be6.png)
 
 - **(Output) Block data decomposition**:
 
-> // Figura 19
+> ![Figura 19](https://user-images.githubusercontent.com/59342135/213033457-c6449969-da60-4f6d-a791-831da8222143.png)
 
 - **(Output) Cyclic decomposition**
 
-> // Figura 20
+> ![Figura 20](https://user-images.githubusercontent.com/59342135/213033470-9a6f0351-b360-4914-ab1d-a81ee2247584.png)
 
 - **(Output) Block-Cyclic decomposition**
 
-> // Figura 21
+> ![Figura 21](https://user-images.githubusercontent.com/59342135/213033480-03601dec-0c30-4c0d-8353-c322399e753c.png)
 
 
