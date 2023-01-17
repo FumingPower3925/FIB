@@ -286,7 +286,7 @@ In order to get coherence there are two ways in the reader side and two ways in 
 > 
 > **Number of bits necessary to maneint the coherence AMONG numa node**:
 > 
-> $(\#nodes)·[({size\ MP \over size\ line\ MP})·(2+2+presence\ {bits \over line})]$
+> $(NumberOfnodes)·[({size\ MP \over size\ line\ MP})·(2+2+presence\ {bits \over line})]$
 
 ![Figura 8](https://user-images.githubusercontent.com/59342135/213033166-883714f7-22ef-4fd6-a2a6-cf84cb2b30bf.png)
 
