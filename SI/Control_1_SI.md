@@ -176,7 +176,7 @@ Se define un grupo de bits, llamado bloque, que tiene una transformación invari
 > 
 > El descifrado usa el mismo algoritmo a la inversa (simplifica implementación)
 
-[Imagen 1]
+![Imagen 1](https://user-images.githubusercontent.com/59342135/227622839-c54b343b-1f38-4bf7-a78a-b0f7473bb07a.png)
 
 > Consiste en 16 rondas idénticas:
 > 
@@ -190,7 +190,7 @@ Se define un grupo de bits, llamado bloque, que tiene una transformación invari
 > 
 > 5. En la siguiente ronda se intercambian los procesos entre S1 y S2 y se usa otra subclave.
 
-[Imagen 2]
+![Imagen 2](https://user-images.githubusercontent.com/59342135/227622878-b6af1800-f7f8-4ba6-a666-aa6673033a62.png)
 
 > La función **Feistel** consisten de 4 etapas
 > 
@@ -234,19 +234,19 @@ Se define un grupo de bits, llamado bloque, que tiene una transformación invari
 >    
 >    1. **SubBytes**: En cada ronda se hace una substitución de cada byte por otro según una tabla conocida S.
 >    
->    [Imagen 3]
+>    ![Imagen 3](https://user-images.githubusercontent.com/59342135/227622915-7df0b021-3eae-4a09-a2e1-2df945c9e987.png)
 >    
 >    2. **ShiftRows:** Las últimas tres líneas de bytes de la matriz se desplazan un cierto número de posiciones.
 >    
->    [Imagen 4]
+>    ![Imagen 4](https://user-images.githubusercontent.com/59342135/227622941-950518aa-9af1-4564-9003-2cb51a56b2fa.png)
 >    
 >    3. **MixColumns:** Se combinan los 4 bytes de cada columna usando transformación lineal conocida c(x).
 >    
->    [Imagen 5]
+>    ![Imagen 5](https://user-images.githubusercontent.com/59342135/227622977-5dbe6b43-c8bb-4f5b-8c71-412c0a9290b6.png)
 >    
 >    4. **AddRoundKey:** Se combina cada byte de la matriz con la clave modificada según la ronda.
 >    
->    [Imagen 6]
+>    ![Imagen 6](https://user-images.githubusercontent.com/59342135/227622996-da6b04ab-9391-4ac5-ab53-61346e3107ab.png)
 > 
 > 4. Se hace una última etapa donde se aplican una última vez los pasos:
 >    
@@ -360,7 +360,7 @@ $$
 y^2=x^3+ax+b
 $$
 
-[Imagen 7]
+![Imagen 7](https://user-images.githubusercontent.com/59342135/227623074-dfa63d91-15b5-4139-a583-5169d81fe5f6.png)
 
 - Crear un grupo finito x,y que satisfagan esta curva
 
@@ -376,9 +376,9 @@ $$
 
 - Operacion dot:
 
-[Imagen 8]
+![Imagen 8](https://user-images.githubusercontent.com/59342135/227623113-b6aa4ab6-9b51-41a2-9af8-1688c40b0311.png)
 
-[Imagen 9]
+![Imagen 9](https://user-images.githubusercontent.com/59342135/227623133-3c2984ff-f3dc-479f-adfc-05190c9c579e.png)
 
 - A partir de un punto público A y repitioendo esta operación dot, se llega a un punto final F, y sabiendo estos dos puntos es muy dificil saber cuantos dot se han hecho.
 
@@ -418,7 +418,7 @@ $$
 
 - Ejemplo:
 
-[Imagen 10]
+![Imagen 10](https://user-images.githubusercontent.com/59342135/227623164-e2401a0a-ee10-428a-a525-ee1ae9ef6293.png)
 
 **Ataques:**
 
@@ -442,7 +442,7 @@ $$
 
 - Se usa para computar números exponenciales sin tratar números excesivamente grandes
 
-[Imagen 11]
+![Imagen 11](https://user-images.githubusercontent.com/59342135/227623316-0ccffe54-d784-4678-acfa-0cbf73e219f5.png)
 
 ### 2.7.2 RSA
 
@@ -707,7 +707,7 @@ Creación de un **conjunto de registros** de datos firmados (**certificados**) q
 
 **Public Key Infrastructure (PKI)**: Es el conjunto de computadoras, software, individuos, políticas y procedimientos necesarios para crear y administrar los certificados digitales basados en criptografía de clave pública.
 
-[Imagen 12]
+![Imagen 12](https://user-images.githubusercontent.com/59342135/227623373-8facd3d6-0e05-4ab8-8862-bb18e62ec31f.png)
 
 **Certification Authority (CA)**
 
@@ -775,7 +775,7 @@ Creación de un **conjunto de registros** de datos firmados (**certificados**) q
 
 - Pretty Good Privacy (PGP) usa este modelo
 
-[Imagen 13]
+![Imagen 13](https://user-images.githubusercontent.com/59342135/227623413-b700d9dc-4da8-4392-8294-dc7ce3bb18a0.png)
 
 **Modelo Plano**
 
@@ -785,7 +785,7 @@ Creación de un **conjunto de registros** de datos firmados (**certificados**) q
 
 - El certificado de CA está autofirmado
 
-[Imagen 14]
+![Imagen 14](https://user-images.githubusercontent.com/59342135/227623439-222b3f40-e124-4568-a0e9-e2eccb895727.png)
 
 **Modelo Jerárquico**
 
@@ -799,7 +799,7 @@ Creación de un **conjunto de registros** de datos firmados (**certificados**) q
 
 - Para validar un certificado, se sigue el árbol desde abajo hasta el CA raíz
 
-[Imagen 15]
+![Imagen 15](https://user-images.githubusercontent.com/59342135/227623468-1108de82-4095-4531-a18b-9f21066a13ab.png)
 
 **Modelos Híbridos**
 
@@ -815,7 +815,7 @@ Creación de un **conjunto de registros** de datos firmados (**certificados**) q
 > 
 > - No hay diferencia entre PKI buenas y no tan buenas
 
-[Imagen 16]
+![Imagen 16](https://user-images.githubusercontent.com/59342135/227623489-8430ac6b-0b6c-4c29-b301-fd2dada88f2c.png)
 
 > **Modelo de certificación cruzada jerárquica**
 > 
@@ -831,7 +831,7 @@ Creación de un **conjunto de registros** de datos firmados (**certificados**) q
 > 
 > **Problema:** El número de certificados cruzados crece enormemente con el número de CA
 
-[Imagen 17]
+![Imagen 17](https://user-images.githubusercontent.com/59342135/227623511-1f39e09d-2770-4764-bfff-ac9edd061082.png)
 
 > **Modelo de certificación de puente**
 > 
@@ -841,7 +841,7 @@ Creación de un **conjunto de registros** de datos firmados (**certificados**) q
 > 
 > - Uso de certificados cruzados
 
-[Imagen 18]
+![Imagen 18](https://user-images.githubusercontent.com/59342135/227623527-8e898e7e-8fd9-4df9-a888-2308b0a9b517.png)
 
 ## 3.4 Certificados X.509
 
