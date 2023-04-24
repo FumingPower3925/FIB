@@ -62,7 +62,7 @@ Se necesita un firewall cuando:
 
 - Ventajas: La configuración es muy simple
 
-[Image 1]
+![Image 1](https://user-images.githubusercontent.com/59342135/234047791-9c7c08cb-e16b-4499-b5bc-7ce3c05442a6.png)
 
 **Two-Legged network with a full exposed DMZ**
 
@@ -74,7 +74,7 @@ Se necesita un firewall cuando:
 
 - Desventaja: La red DMZ está completamente expuesta a Internet
 
-[Image 2]
+![Image 2](https://user-images.githubusercontent.com/59342135/234047931-64808203-12cc-4f62-851c-b9a9fd42accc.png)
 
 **Restricted DMZ via dialup Firewall**
 
@@ -88,7 +88,7 @@ Se necesita un firewall cuando:
 
 - Desventajas: Necesitas dos firewalls
 
-[Image 3]
+![Image 3](https://user-images.githubusercontent.com/59342135/234047970-2a5ef411-ad51-4ef9-9ae0-67b5f1727364.png)
 
 **Three-legged firewall**
 
@@ -100,7 +100,7 @@ Se necesita un firewall cuando:
 
 - Desventajas: Firewall de tres interfaces, mas complejo de configurar
 
-[Image 4]
+![Image 4](https://user-images.githubusercontent.com/59342135/234048002-f943516b-fea3-4c1a-9453-869b01729df3.png)
 
 ### 4.1.2 Reglas de Filtrado
 
@@ -142,7 +142,7 @@ Son el conjunto de reglas utilizadas para determinar si un paquete tiene que ser
 
 >  Las cadenas se agrupan en tablas (**tables**), cada tabla está asociada con un tipo diferente de procesamiento de paquetes.
 
-[Image 5]
+![Image 5](https://user-images.githubusercontent.com/59342135/234048178-e55c86cf-c523-4ba6-9349-6664a7667c97.png)
 
 - **Filter**:
   
@@ -165,8 +165,9 @@ Son el conjunto de reglas utilizadas para determinar si un paquete tiene que ser
 - **Raw**
   
   - Se consulta antes de cualquier otra.
+  
+![Image 6](https://user-images.githubusercontent.com/59342135/234048212-ab58b024-e690-4306-9ae3-9fab9e78ab27.png)
 
-[Image 6]
 
 > Nota: Las wildcards funcionan como las mascaras de subred
 > 
@@ -428,7 +429,7 @@ Este es el unico modelo que proporciona seguridad de extremo a extremo, pero est
 
 - Asegurar que un programa de seguridad sea efectivo y rentable usando SDLC
 
-[Image 7]
+![Image 7](https://user-images.githubusercontent.com/59342135/234048326-484e16b5-3bac-4f9a-9a17-a7449a39fb69.png)
 
 ## 5.2 Errores más comunes (OWASP top10)
 
