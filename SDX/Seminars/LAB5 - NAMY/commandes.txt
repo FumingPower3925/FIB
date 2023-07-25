@@ -1,0 +1,16 @@
+erl -name root@127.0.0.1 -setcookie dns
+server:start().
+
+erl -name edu@127.0.0.1 -setcookie dns
+server:start(edu, {server, 'root@127.0.0.1'}).
+
+erl -name upc@127.0.0.1 -setcookie dns
+server:start(upc, {server, 'edu@127.0.0.1'}).
+
+erl -name hosts@127.0.0.1 -setcookie dns
+host:start(www, www, {server, 'upc@127.0.0.1'}).
+host:start(ftp, ftp, {server, 'upc@127.0.0.1'}).
+
+erl -name client@127.0.0.1 -setcookie dns
+resolver:start({server, 'root@127.0.0.1'}).
+namy:ping([www,upc,edu], resolver).

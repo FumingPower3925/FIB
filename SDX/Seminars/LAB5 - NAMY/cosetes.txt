@@ -1,0 +1,16 @@
+regiter -> indiques que ets la fulla
+(root no necessita cap paràmetre)
+
+deregister -> eliminem el host del namespace
+
+TTL a 0 desactivem les entradesç(enviar al principi els ttls als servidors per decidir el ttl)
+
+client pugi especificar un pathname (ping,pong per demostrar que hem pogut resoltre el pathname)
+
+request -> name és el nom del domini que vol resoldre
+
+Resolució iterativa (per parts)
+
+reply (TTL -> fins a quin moment retindrà l'entrada)
+
+IMPLEMENTAR CACHE RESOLVER
