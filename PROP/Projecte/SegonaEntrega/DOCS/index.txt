@@ -1,0 +1,6 @@
+Índex:
+- El document format PDF conté tota la documentació de l'aplicació, és a dir, una breu explicació dels atributs i mètodes de les classes, i les estructures de dades que hem fet servir.
+- La carpeta diagrames amb els tres diagrames demanats: de la capa de domini, de la capa de presentació i de la capa de persistència:
+		- Diagrama capa de domini: vermell -> Albert, lila -> Noa, verd -> David, blau -> Sergio.
+		- Diagrama capa de presentació: verd -> David, blau -> Sergio.
+		- Diagrama capa de persistència: Albert.

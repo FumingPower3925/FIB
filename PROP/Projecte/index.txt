@@ -1,0 +1,13 @@
+Incluye:
+	-dominio: incluye los .java de la Capa de Dominio
+	-persistencia: incluye los .java de la Capa de Persistencia
+	-presentacion: incluye los .java y los .form de la Capa de Presentacion
+	-Makefile
+
+Como utilizar el Makefile:
+	make jar:
+		crea el directorio EXE y todos los .class del proyecto y el ejecutable de la aplicacion
+
+	make clean:
+		borra todo el directorio EXE
+
