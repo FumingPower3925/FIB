@@ -445,5 +445,3 @@ HTTP Methods
 - ITU-T: letters + numbers
 
 - ISO/IEC: numbers
-
-
