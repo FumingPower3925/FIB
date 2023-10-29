@@ -8,7 +8,7 @@
 
 **CCITT**: Comité Consultivo Internacional Telegráfico y Telefónico
 
--- FIGURE 1
+![Figure 1](https://github.com/FumingPower3925/FIB/assets/59342135/cb35a784-8376-4b76-a365-892ed157d19c)
 
 ## 1.2 C/S Model
 
@@ -50,7 +50,8 @@
   
   - C Linux
 
-        -- FIGURE 2
+        ![Figure 2](https://github.com/FumingPower3925/FIB/assets/59342135/687c1d00-22bb-4ed5-ace1-906e88bb4d34)
+
 
 - RMI - Remote Method Invocation
   
@@ -62,7 +63,7 @@
   
   - Remot Object Method Invocation
     
-     -- Figure 3
+     ![Figure 3](https://github.com/FumingPower3925/FIB/assets/59342135/3846d675-356d-4e1a-8b12-c619f8f9f899)
     
     - Basic type: By value
     
@@ -70,13 +71,13 @@
       
       - Object does not move from the "remote" JVM.
     
-    -- Figure 4
+    ![Figure 4](https://github.com/FumingPower3925/FIB/assets/59342135/ff1c81dc-d385-4098-9908-b6540300f083)
     
     - Object implementing **Serializable** interface. Transformed in bytes and sent
       
       - Object sent to the client, local execution in client
     
-    -- Figure 5
+    ![Figure 5](https://github.com/FumingPower3925/FIB/assets/59342135/b3c99a2f-efb2-4528-a143-93ae4bf7ea59)
 
 - CORBA - Common Object Request Broker Architecture
   
@@ -138,11 +139,11 @@
 
 **HTTP REQUEST**
 
--- Figure 6
+![Figure 6](https://github.com/FumingPower3925/FIB/assets/59342135/05902313-8ac0-4ab1-8f4a-aee27f01ee0e)
 
 **HTTP REPLY**
 
--- Figure 7
+![Figure 7](https://github.com/FumingPower3925/FIB/assets/59342135/fd3a187a-321c-4eb8-a008-199335fa9e8c)
 
 HTTP Methods
 
@@ -168,11 +169,11 @@ HTTP Methods
 
 **HTTP GET REQUEST EXAMPLE**
 
--- Figure 8
+![Figure 8](https://github.com/FumingPower3925/FIB/assets/59342135/5ff13b57-9664-4d00-be4d-4607cc468da3)
 
 **HTTP GET RESPONSE EXAMPLE**
 
--- Figure 9
+![Figure 9](https://github.com/FumingPower3925/FIB/assets/59342135/709a975a-7302-4f46-a509-6a176a1b8972)
 
 ## 1.6.1 HTTP 2
 
@@ -196,7 +197,7 @@ HTTP Methods
 
 **MIME FORMAT**
 
--- Figure 10
+![Figure 10](https://github.com/FumingPower3925/FIB/assets/59342135/cdcc5337-b7ae-4c98-91fe-1d8d546f0461)
 
 ## 1.8 HTML (HyperText Markup Language)
 
@@ -232,7 +233,7 @@ HTTP Methods
 
 - Elements, attributes & text
 
--- Figure 11
+![Figure 11](https://github.com/FumingPower3925/FIB/assets/59342135/65518fc1-f74e-4696-b5b1-9dde39dfa61b)
 
 **Other Issues**
 
@@ -256,7 +257,7 @@ HTTP Methods
 
 - Two ways of defining restrictions/rules formXML:
   
-  -- Figure 12
+  ![Figure 12](https://github.com/FumingPower3925/FIB/assets/59342135/a0ca9c0d-d200-4547-8314-bcf6d85139ac)
   
   DTD (Document Type Definition):
   
@@ -264,17 +265,17 @@ HTTP Methods
   
   - Simple but limited
   
-  -- Figure 13
+  ![Figure 13](https://github.com/FumingPower3925/FIB/assets/59342135/8a154504-f250-41f4-84a4-7cd9b1f4b185)
   
   XML Schema:
   
   - Higher expressiveness, but very complex
   
-  -- Figure 14
+  ![Figure 14](https://github.com/FumingPower3925/FIB/assets/59342135/6b1166e5-aae0-491d-bad7-989d64ff02ca)
   
   XML Schema & Namespaces:
   
-  -- Figure 15
+  ![Figure 15](https://github.com/FumingPower3925/FIB/assets/59342135/ad2687d4-6790-4c10-81b3-a449598c9cc7)
 
 # TEMA 2
 
@@ -314,33 +315,33 @@ HTTP Methods
 
 ## 2.2 RMI with SOAP
 
--- Figure 16
+![Figure 16](https://github.com/FumingPower3925/FIB/assets/59342135/d5a2ac7a-7d7c-4254-a662-135ee4c68c8e)
 
--- Figure 17
+![Figure 17](https://github.com/FumingPower3925/FIB/assets/59342135/03f6f89d-3bda-42f1-81e4-8926dce535b4)
 
 ## 2.3 WSDL
 
--- Figure 18
+![Figure 18](https://github.com/FumingPower3925/FIB/assets/59342135/25a67063-d54e-4ed1-bc6c-b05ebfc1f8c4)
 
--- Figure 19
+![Figure 19](https://github.com/FumingPower3925/FIB/assets/59342135/9aa96b1a-4a47-421d-b735-3f1ab4aa82a1)
 
--- Figure 20
+![Figure 20](https://github.com/FumingPower3925/FIB/assets/59342135/26654a81-59fb-49dd-8352-9c3a9f024091)
 
--- Figure 21
+![Figure 21](https://github.com/FumingPower3925/FIB/assets/59342135/e2d43602-d46b-4618-887b-2c1200f2afbc)
 
 ### 2.3.1 WSDL Styles
 
--- Figure 22
+![Figure 22](https://github.com/FumingPower3925/FIB/assets/59342135/5c2fd922-c553-4779-b560-7fa2caf9e3f1)
 
 ## 2.4 HTTP SOAP
 
 - Request
   
-  -- Figure 23
+  ![Figure 23](https://github.com/FumingPower3925/FIB/assets/59342135/969915fc-2ecc-4977-8ee8-14ed15c720b0)
 
 - Response
 
--- Figure 24
+![Figure 24](https://github.com/FumingPower3925/FIB/assets/59342135/5fb1c281-f00c-457b-a0ae-15e45e82ee79)
 
 **SOAP ANALYSIS**
 
@@ -366,7 +367,7 @@ HTTP Methods
 
 ## 2.5 SOAP + MTOM + XOP
 
--- Figure 25
+![Figure 25](https://github.com/FumingPower3925/FIB/assets/59342135/baf001f0-b83d-47fd-8dcf-0e1484b8c4f9)
 
 ## 2.6 REST: REpresentational State Transfer
 
@@ -380,11 +381,11 @@ HTTP Methods
 
 **REST REQUEST EXAMPLE**
 
--- Figure 26
+![Figure 26](https://github.com/FumingPower3925/FIB/assets/59342135/309025a1-0f91-4434-bb87-821074fe7139)
 
 **REST RESPONSE EXAMPLE**
 
--- Figure 27
+![Figure 27](https://github.com/FumingPower3925/FIB/assets/59342135/bf2c62eb-8ec0-48e4-91d3-94f6bc90f8fb)
 
 ### 2.6.1 CRUD operations with REST
 
